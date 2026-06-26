@@ -10,4 +10,6 @@ class Field{
     public:
     Field::Field(int length, int width);
     Cell* getCell(int x, int y);
+    int getwidth();
+    int getlength();
 };
