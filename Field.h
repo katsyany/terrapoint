@@ -8,5 +8,6 @@ class Field{
     int length;
     std::vector<std::vector<Cell>>grid;
     public:
-    Cell getCell(int x, int y);
+    Field::Field(int length, int width);
+    Cell* getCell(int x, int y);
 };
